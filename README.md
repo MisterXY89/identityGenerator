@@ -1,8 +1,9 @@
 
 # Identity Generator
+## Idea
+**WORK IN PROGRESS**
 Generate a random and plausible identity, currently German identities only.
-The identity can be exported as `.json` file or directly used as a `python dictionary`
-
+The identity can be exported as `.json` file or directly used as a `python dictionary`.
 
 ## Disclaimer
 The project and the corresponding source code serve solely for the interest and illustration of the technical possibilities.
