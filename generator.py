@@ -62,7 +62,7 @@ class Generator:
         self.genWeight(self.identity.sex, self.identity.height)
         self.genNationality()
         self.genCity()
-        self.identity.prettyPrint()
+        self.identity.print()
 
 gen = Generator()
 gen.genIdentity()
