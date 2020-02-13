@@ -7,19 +7,27 @@ from generatorMath import GaussianChoice
 from dataHandler import DataHandler
 
 class Generator:
+    """
+    Controller for the generation of an identity -
+    provides all gen-methods and combines the data and logic.
+    Currently only German identities can be generated.
+    """
     def __init__(self):
         self.dataHandler = DataHandler()
-        self.yearRange = range(1930, 2001)
         self.names = self.dataHandler.getNames()
         self.heights = self.dataHandler.getHeights()
         self.bmis = self.dataHandler.getBmis()
+        self.einwohner = self.dataHandler.getEinwohner()
         self.gaussianChoice = GaussianChoice(35)
         self.sex = random.choice(["m", "f"])
         self.identity = Identity(self.sex)
 
     def genAge(self):
-        self.identity.birthYear = random.choice(self.yearRange)
+        """ choose random age and calculate current age """
+        date = self.dataHandler.getRandomDate()
+        self.identity.birthYear = date.year
         self.identity.age = datetime.datetime.now().year - self.identity.birthYear
+        self.identity.birthday = f"{date.day}.{date.month}"
 
     def genName(self, birthYear):
         """ choose a name based on sex and birthYear """
@@ -28,6 +36,7 @@ class Generator:
         self.identity.name = namesByYear[self.gaussianChoice.getIndex()]
 
     def genWeight(self, sex, height):
+        """ generate weigt based on sex, height & the bmi and gaussian normal distribution """
         self.identity.bmi = self.bmis[sex][self.gaussianChoice.getIndex(distribution = "c")%5]
         self.identity.weight = format(float(self.identity.bmi * math.pow(height/100, 2)), '.1f')
 
@@ -36,14 +45,23 @@ class Generator:
         self.identity.nationality = "DE"
 
     def genHeight(self, sex):
+        """ generate height based on sex and gaussian normal distribution """
         self.identity.height = self.heights[sex][self.gaussianChoice.getIndex(distribution = "c")%30]
 
+    def genCity(self):
+        """ choose random city from one of the 80 biggest citys in germany """
+        cityData = self.einwohner[GaussianChoice(80).getIndex()]
+        self.identity.city = cityData["Stadt"]
+        self.identity.state = cityData["bundesland"]
+
     def genIdentity(self):
+        """ collection of all method calls in ordet to generate a random identity """
         self.genAge()
         self.genName(self.identity.birthYear)
         self.genHeight(self.identity.sex)
         self.genWeight(self.identity.sex, self.identity.height)
         self.genNationality()
+        self.genCity()
         self.identity.prettyPrint()
 
 gen = Generator()
