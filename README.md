@@ -2,7 +2,7 @@
 # Identity Generator
 ## Idea
 **WORK IN PROGRESS** <br>
-Generate a random and plausible identity, currently German identities only.
+Generate a random and plausible fake identity, currently German identities only.
 The identity can be exported as `.json` file or directly used as a `python dictionary`.
 
 ## Disclaimer
