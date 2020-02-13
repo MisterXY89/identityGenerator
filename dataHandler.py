@@ -7,7 +7,6 @@ class DataHandler:
         self.filesPath = "files/"
         self.names = f"{self.filesPath}names.pkl"
         self.einwohner = f"{self.filesPath}einwohner.pkl"
-        self.einwohnerJ = f"{self.filesPath}einwohner.json"
         self.height = {
             "f": list(range(155, 185)),
             "m": list(range(165, 195))
@@ -29,13 +28,5 @@ class DataHandler:
     def getBmis(self):
         return self.bmis
 
-    def jsonLoad(self):
-        with open(self.einwohnerJ) as json_data:
-            d = json.load(json_data)
-            print(d)
-            pickle.dump(d, open(self.einwohner), "wb")
-
-
-
-dr = DataHandler()
-dr.jsonLoad()
+    def getEinwohner(self):
+        return self._load(self.einwohner)
