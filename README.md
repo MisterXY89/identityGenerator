@@ -6,6 +6,12 @@ Generate a random and plausible identity, currently German identities only.
 The identity can be exported as `.json` file or directly used as a `python dictionary`.
 
 ## Disclaimer
-The project and the corresponding source code serve solely for the interest and illustration of the technical possibilities.
-I assume no liability for any detrimental usage of the source code. The mere presence/publication of this code on my GitHub
-account does not imply that I encourage to use these identities in any non-appropriate or non-legal way.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to the [LICENSE](LICENSE) or <https://unlicense.org>
