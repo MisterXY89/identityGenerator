@@ -4,15 +4,15 @@ import random
 import datetime
 from identity import Identity
 from generatorMath import GaussianChoice
-from dataReader import DataReader
+from dataHandler import DataHandler
 
 class Generator:
     def __init__(self):
-        self.dataReader = DataReader()
+        self.dataHandler = DataHandler()
         self.yearRange = range(1930, 2001)
-        self.names = self.dataReader.getNames()
-        self.heights = self.dataReader.getHeights()
-        self.bmis = self.dataReader.getBmis()
+        self.names = self.dataHandler.getNames()
+        self.heights = self.dataHandler.getHeights()
+        self.bmis = self.dataHandler.getBmis()
         self.gaussianChoice = GaussianChoice(35)
         self.sex = random.choice(["m", "f"])
         self.identity = Identity(self.sex)
@@ -28,7 +28,7 @@ class Generator:
         self.identity.name = namesByYear[self.gaussianChoice.getIndex()]
 
     def genWeight(self, sex, height):
-        self.identity.bmi = self.bmis[sex][int(self.gaussianChoice.getIndex(distribution = "c")/5)]
+        self.identity.bmi = self.bmis[sex][self.gaussianChoice.getIndex(distribution = "c")%5]
         self.identity.weight = format(float(self.identity.bmi * math.pow(height/100, 2)), '.1f')
 
     def genNationality(self):
@@ -36,7 +36,7 @@ class Generator:
         self.identity.nationality = "DE"
 
     def genHeight(self, sex):
-        self.identity.height = self.heights[sex][self.gaussianChoice.getIndex(distribution = "c")]
+        self.identity.height = self.heights[sex][self.gaussianChoice.getIndex(distribution = "c")%30]
 
     def genIdentity(self):
         self.genAge()
@@ -48,3 +48,5 @@ class Generator:
 
 gen = Generator()
 gen.genIdentity()
+
+input()
