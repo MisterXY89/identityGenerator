@@ -38,7 +38,8 @@ class Generator:
     def genWeight(self, sex, height):
         """ generate weigt based on sex, height & the bmi and gaussian normal distribution """
         self.identity.bmi = self.bmis[sex][self.gaussianChoice.getIndex(distribution = "c")%5]
-        self.identity.weight = format(float(self.identity.bmi * math.pow(height/100, 2)), '.1f')
+        # add 2 for a more realistic weight
+        self.identity.weight = float(format(float(self.identity.bmi * math.pow(height/100, 2)), '.1f')) + 2
 
     def genNationality(self):
         """ currently only one / DE """
@@ -62,9 +63,3 @@ class Generator:
         self.genWeight(self.identity.sex, self.identity.height)
         self.genNationality()
         self.genCity()
-        self.identity.print()
-
-gen = Generator()
-gen.genIdentity()
-
-input()
