@@ -15,6 +15,7 @@ class Generator:
     def __init__(self):
         self.dataHandler = DataHandler()
         self.names = self.dataHandler.getNames()
+        self.familyNames = self.dataHandler.getFamilyNames()
         self.heights = self.dataHandler.getHeights()
         self.bmis = self.dataHandler.getBmis()
         self.einwohner = self.dataHandler.getEinwohner()
@@ -34,10 +35,11 @@ class Generator:
         selector = "boys" if self.sex == "m" else "girls"
         namesByYear = self.names[str(birthYear)][selector]
         self.identity.name = namesByYear[self.gaussianChoice.getIndex()]
+        self.identity.familyName = self.familyNames[GaussianChoice(99).getIndex()]
 
     def genWeight(self, sex, height):
         """ generate weigt based on sex, height & the bmi and gaussian normal distribution """
-        self.identity.bmi = self.bmis[sex][self.gaussianChoice.getIndex(distribution = "c")%5]
+        self.identity.bmi = self.bmis[sex][GaussianChoice(5).getIndex(distribution = "c")]
         # add 2 for a more realistic weight
         self.identity.weight = float(format(float(self.identity.bmi * math.pow(height/100, 2)), '.1f')) + 2
 
@@ -47,7 +49,7 @@ class Generator:
 
     def genHeight(self, sex):
         """ generate height based on sex and gaussian normal distribution """
-        self.identity.height = self.heights[sex][self.gaussianChoice.getIndex(distribution = "c")%30]
+        self.identity.height = self.heights[sex][GaussianChoice(30).getIndex(distribution = "c")]
 
     def genCity(self):
         """ choose random city from one of the 80 biggest citys in germany """
@@ -63,3 +65,9 @@ class Generator:
         self.genWeight(self.identity.sex, self.identity.height)
         self.genNationality()
         self.genCity()
+
+
+gen = Generator()
+gen.genIdentity()
+gen.identity.print()
+input()

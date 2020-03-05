@@ -11,6 +11,7 @@ class DataHandler:
         self.yearRangeFrom = 1930
         self.yearRangeTo = 2002
         self.names = f"{self.filesPath}names.pkl"
+        self.familyNames = f"{self.filesPath}familyNames.pkl"
         # https://www.taschenhirn.de/geografie/groesste-deutsche-staedte/
         self.einwohner = f"{self.filesPath}einwohner.pkl"
         self.height = {
@@ -27,6 +28,9 @@ class DataHandler:
 
     def getNames(self):
         return self._load(self.names)
+
+    def getFamilyNames(self):
+        return self._load(self.familyNames)
 
     def getHeights(self):
         return self.height
