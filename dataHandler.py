@@ -11,6 +11,7 @@ class DataHandler:
         self.yearRangeFrom = 1930
         self.yearRangeTo = 2002
         self.names = f"{self.filesPath}names.pkl"
+        # https://www.taschenhirn.de/geografie/groesste-deutsche-staedte/
         self.einwohner = f"{self.filesPath}einwohner.pkl"
         self.height = {
             "f": list(range(155, 185)),

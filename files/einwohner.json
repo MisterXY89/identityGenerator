@@ -1,0 +1,488 @@
+[
+  {
+    "Stadt": "Berlin",
+    "Einwohner": 3645000,
+    "bundesland": "Berlin",
+    "rang": 1
+  },
+  {
+    "Stadt": "Hamburg",
+    "Einwohner": "1 841 200",
+    "bundesland": "HH",
+    "rang": 2
+  },
+  {
+    "Stadt": "München",
+    "Einwohner": "1 471 500",
+    "bundesland": "Bayern, Oberbayern",
+    "rang": 3
+  },
+  {
+    "Stadt": "Köln",
+    "Einwohner": "1 085 700",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 4
+  },
+  {
+    "Stadt": "Frankfurt am Main",
+    "Einwohner": "753 000",
+    "bundesland": "Hessen",
+    "rang": 5
+  },
+  {
+    "Stadt": "Stuttgart",
+    "Einwohner": "634 800",
+    "bundesland": "Baden-Württemberg",
+    "rang": 6
+  },
+  {
+    "Stadt": "Düsseldorf",
+    "Einwohner": "619 300",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 7
+  },
+  {
+    "Stadt": "Leipzig",
+    "Einwohner": "587 900",
+    "bundesland": "Sachsen",
+    "rang": 8
+  },
+  {
+    "Stadt": "Dortmund",
+    "Einwohner": "587 000",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 9
+  },
+  {
+    "Stadt": "Essen",
+    "Einwohner": "583 100",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 10
+  },
+  {
+    "Stadt": "Bremen",
+    "Einwohner": "569 400",
+    "bundesland": "HB",
+    "rang": 11
+  },
+  {
+    "Stadt": "Dresden",
+    "Einwohner": "554 600",
+    "bundesland": "Sachsen",
+    "rang": 12
+  },
+  {
+    "Stadt": "Hannover",
+    "Einwohner": "538 000",
+    "bundesland": "Niedersachsen",
+    "rang": 13
+  },
+  {
+    "Stadt": "Nürnberg",
+    "Einwohner": "518 400",
+    "bundesland": "Bayern, Mittelfranken",
+    "rang": 14
+  },
+  {
+    "Stadt": "Duisburg",
+    "Einwohner": "498 600",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 15
+  },
+  {
+    "Stadt": "Bochum",
+    "Einwohner": "364 600",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 16
+  },
+  {
+    "Stadt": "Wuppertal",
+    "Einwohner": "354 300",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 17
+  },
+  {
+    "Stadt": "Bielefeld",
+    "Einwohner": "333 800",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 18
+  },
+  {
+    "Stadt": "Bonn",
+    "Einwohner": "327 300",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 19
+  },
+  {
+    "Stadt": "Münster",
+    "Einwohner": "314 300",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 20
+  },
+  {
+    "Stadt": "Karlsruhe",
+    "Einwohner": "313 100",
+    "bundesland": "Baden-Württemberg",
+    "rang": 21
+  },
+  {
+    "Stadt": "Mannheim",
+    "Einwohner": "309 400",
+    "bundesland": "Baden-Württemberg",
+    "rang": 22
+  },
+  {
+    "Stadt": "Augsburg",
+    "Einwohner": "295 100",
+    "bundesland": "Bayern, Schwaben",
+    "rang": 23
+  },
+  {
+    "Stadt": "Wiesbaden",
+    "Einwohner": "278 300",
+    "bundesland": "Hessen",
+    "rang": 24
+  },
+  {
+    "Stadt": "Mönchengladbach",
+    "Einwohner": "261 500",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 25
+  },
+  {
+    "Stadt": "Gelsenkirchen",
+    "Einwohner": "260 600",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 26
+  },
+  {
+    "Stadt": "Braunschweig",
+    "Einwohner": "248 300",
+    "bundesland": "Niedersachsen",
+    "rang": 27
+  },
+  {
+    "Stadt": "Kiel",
+    "Einwohner": "247 600",
+    "bundesland": "Schleswig-Holstein",
+    "rang": 28
+  },
+  {
+    "Stadt": "Aachen",
+    "Einwohner": "247 400",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 29
+  },
+  {
+    "Stadt": "Chemnitz",
+    "Einwohner": "247 200",
+    "bundesland": "Sachsen",
+    "rang": 30
+  },
+  {
+    "Stadt": "Halle (Saale)",
+    "Einwohner": "239 200",
+    "bundesland": "Sachsen-Anhalt",
+    "rang": 31
+  },
+  {
+    "Stadt": "Magdeburg",
+    "Einwohner": "238 600",
+    "bundesland": "Sachsen-Anhalt",
+    "rang": 32
+  },
+  {
+    "Stadt": "Freiburg im Breisgau",
+    "Einwohner": "230 200",
+    "bundesland": "Baden-Württemberg",
+    "rang": 33
+  },
+  {
+    "Stadt": "Krefeld",
+    "Einwohner": "226 700",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 34
+  },
+  {
+    "Stadt": "Lübeck",
+    "Einwohner": "217 200",
+    "bundesland": "Schleswig-Holstein",
+    "rang": 35
+  },
+  {
+    "Stadt": "Mainz",
+    "Einwohner": "217 100",
+    "bundesland": "Rheinland-Pfalz",
+    "rang": 36
+  },
+  {
+    "Stadt": "Erfurt",
+    "Einwohner": "213 700",
+    "bundesland": "Thüringen",
+    "rang": 37
+  },
+  {
+    "Stadt": "Oberhausen",
+    "Einwohner": "210 800",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 38
+  },
+  {
+    "Stadt": "Rostock",
+    "Einwohner": "208 900",
+    "bundesland": "Mecklenburg-Vorpommern",
+    "rang": 39
+  },
+  {
+    "Stadt": "Kassel",
+    "Einwohner": "200 700",
+    "bundesland": "Hessen",
+    "rang": 40
+  },
+  {
+    "Stadt": "Hagen",
+    "Einwohner": "188 800",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 41
+  },
+  {
+    "Stadt": "Saarbrücken",
+    "Einwohner": "180 700",
+    "bundesland": "Saarland",
+    "rang": 42
+  },
+  {
+    "Stadt": "Hamm",
+    "Einwohner": "179 100",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 43
+  },
+  {
+    "Stadt": "Potsdam",
+    "Einwohner": "178 100",
+    "bundesland": "Brandenburg",
+    "rang": 44
+  },
+  {
+    "Stadt": "Ludwigshafen am Rhein",
+    "Einwohner": "171 100",
+    "bundesland": "Rheinland-Pfalz",
+    "rang": 45
+  },
+  {
+    "Stadt": "Mülheim an der Ruhr",
+    "Einwohner": "170 800",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 46
+  },
+  {
+    "Stadt": "Oldenburg (Oldb)",
+    "Einwohner": "168 200",
+    "bundesland": "Niedersachsen",
+    "rang": 47
+  },
+  {
+    "Stadt": "Osnabrück",
+    "Einwohner": "164 800",
+    "bundesland": "Niedersachsen",
+    "rang": 48
+  },
+  {
+    "Stadt": "Leverkusen",
+    "Einwohner": "163 800",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 49
+  },
+  {
+    "Stadt": "Heidelberg",
+    "Einwohner": "160 400",
+    "bundesland": "Baden-Württemberg",
+    "rang": 50
+  },
+  {
+    "Stadt": "Solingen",
+    "Einwohner": "159 400",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 51
+  },
+  {
+    "Stadt": "Darmstadt",
+    "Einwohner": "159 200",
+    "bundesland": "Hessen",
+    "rang": 52
+  },
+  {
+    "Stadt": "Herne",
+    "Einwohner": "156 400",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 53
+  },
+  {
+    "Stadt": "Neuss",
+    "Einwohner": "153 800",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 54
+  },
+  {
+    "Stadt": "Regensburg",
+    "Einwohner": "152 600",
+    "bundesland": "Bayern, Oberpfalz",
+    "rang": 55
+  },
+  {
+    "Stadt": "Paderborn",
+    "Einwohner": "150 600",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 56
+  },
+  {
+    "Stadt": "Ingolstadt",
+    "Einwohner": "137 000",
+    "bundesland": "Bayern, Oberbayern",
+    "rang": 57
+  },
+  {
+    "Stadt": "Offenbach",
+    "Einwohner": "128 800",
+    "bundesland": "Hessen",
+    "rang": 58
+  },
+  {
+    "Stadt": "Würzburg",
+    "Einwohner": "127 900",
+    "bundesland": "Bayern, Unterfranken",
+    "rang": 59
+  },
+  {
+    "Stadt": "Fürth",
+    "Einwohner": "127 800",
+    "bundesland": "Bayern, Mittelfranken",
+    "rang": 60
+  },
+  {
+    "Stadt": "Ulm",
+    "Einwohner": "126 300",
+    "bundesland": "Baden-Württemberg",
+    "rang": 61
+  },
+  {
+    "Stadt": "Heilbronn",
+    "Einwohner": "126 000",
+    "bundesland": "Baden-Württemberg",
+    "rang": 62
+  },
+  {
+    "Stadt": "Pforzheim",
+    "Einwohner": "125 500",
+    "bundesland": "Baden-Württemberg",
+    "rang": 63
+  },
+  {
+    "Stadt": "Wolfsburg",
+    "Einwohner": "124 100",
+    "bundesland": "Niedersachsen",
+    "rang": 64
+  },
+  {
+    "Stadt": "Göttingen",
+    "Einwohner": "119 800",
+    "bundesland": "Niedersachsen",
+    "rang": 65
+  },
+  {
+    "Stadt": "Bottrop",
+    "Einwohner": "117 400",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 66
+  },
+  {
+    "Stadt": "Reutlingen",
+    "Einwohner": "116 000",
+    "bundesland": "Baden-Württemberg",
+    "rang": 67
+  },
+  {
+    "Stadt": "Koblenz",
+    "Einwohner": "114 000",
+    "bundesland": "Rheinland-Pfalz",
+    "rang": 68
+  },
+  {
+    "Stadt": "Bremerhaven",
+    "Einwohner": "113 600",
+    "bundesland": "Bremen",
+    "rang": 69
+  },
+  {
+    "Stadt": "Recklinghausen",
+    "Einwohner": "113 300",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 70
+  },
+  {
+    "Stadt": "Bergisch Gladbach",
+    "Einwohner": "112 000",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 71
+  },
+  {
+    "Stadt": "Erlangen",
+    "Einwohner": "111 900",
+    "bundesland": "Bayern, Mittelfranken",
+    "rang": 72
+  },
+  {
+    "Stadt": "Jena",
+    "Einwohner": "111 400",
+    "bundesland": "Thüringen",
+    "rang": 73
+  },
+  {
+    "Stadt": "Remscheid",
+    "Einwohner": "111 000",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 74
+  },
+  {
+    "Stadt": "Trier",
+    "Einwohner": "110 600",
+    "bundesland": "Rheinland-Pfalz",
+    "rang": 75
+  },
+  {
+    "Stadt": "Salzgitter",
+    "Einwohner": "105 000",
+    "bundesland": "Niedersachsen",
+    "rang": 76
+  },
+  {
+    "Stadt": "Moers",
+    "Einwohner": "103 800",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 77
+  },
+  {
+    "Stadt": "Siegen",
+    "Einwohner": "102 800",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 78
+  },
+  {
+    "Stadt": "Hildesheim",
+    "Einwohner": "102 000",
+    "bundesland": "Niedersachsen",
+    "rang": 79
+  },
+  {
+    "Stadt": "Cottbus",
+    "Einwohner": "100 200",
+    "bundesland": "Brandenburg",
+    "rang": 80
+  },
+  {
+    "Stadt": "Gütersloh",
+    "Einwohner": "100 100",
+    "bundesland": "Nordrhein-Westfalen",
+    "rang": 81
+  }
+]
